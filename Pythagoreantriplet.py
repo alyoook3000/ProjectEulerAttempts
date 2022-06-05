@@ -25,5 +25,3 @@ def tripletproduct(sidesum):
 
 
 a, b, c = tripletproduct(1000)
-
-print(a*b*c)
