@@ -13,7 +13,7 @@ def tripletproduct(sidesum):
 
 #2 * m * (m+n) = sidesum
 #n = (sidesum / (2*m))-m
-
+    #For loop range set to sqrt of sidesum becuase that isthe max integer the result can become
     for m in range(1, round(math.sqrt(sidesum))):
         n = (sidesum / (2*m))-m
         # m have to be larger than n
