@@ -1,3 +1,20 @@
+#Approach 1
+def primeSum_naive(limit):
+    primes = []
+    for x in range(1, limit+1):
+        if (x>1):
+            for i in range(2,x):
+                if(x%i)==0:
+                    break
+                else:
+                    primes.append(x)
+
+    return sum(primes)
+
+
+
+
+#Approach 2
 import math
 
 def is_prime(n):
@@ -17,18 +34,3 @@ def sum_primes(n):
 
 def main():
     print(sum_primes(2000000))
-
-main()
-
-
-def primeSum_naive(limit):
-    primes = []
-    for x in range(1, limit+1):
-        if (x>1):
-            for i in range(2,x):
-                if(x%i)==0:
-                    break
-                else:
-                    primes.append(x)
-
-    return sum(primes)
