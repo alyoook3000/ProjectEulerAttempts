@@ -1,5 +1,3 @@
-#Naive approach to the challenge
-
 #Receive the seires of number and the adjacent digits as input
 def seriesproductmax(series, digit):
     #Convert the input into string to iterate through
