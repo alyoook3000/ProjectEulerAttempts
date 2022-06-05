@@ -19,5 +19,7 @@ def prime_sum_sieve(limit):
         if is_prime[i] == True:
             list_prime.append(nums[i])
 
-    print(sum(list_prime))
+    sumPrimes = sum(list_prime)
+
+    return sumPrimes
 
