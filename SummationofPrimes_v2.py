@@ -12,8 +12,6 @@ def primeSum_naive(limit):
     return sum(primes)
 
 
-
-
 #Approach 2
 import math
 
