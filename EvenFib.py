@@ -4,7 +4,8 @@ def fibsEvenSum(t, a=1, b=2):
     a, b = b, a + b
 
 fibs = fibsEvenSum(4000000)
-print(sum(n for n in fibs if n % 2 == 0))
+fibssum = sum(n for n in fibs if n % 2 == 0)
+print(fibssum)
 
 
 
