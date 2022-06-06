@@ -27,8 +27,3 @@ def LargestPF1(n):
     if n > 2:
         max_prime = n
     return int(max_prime)
-
-
-
-
-print(LargestPF1(600851475143))
