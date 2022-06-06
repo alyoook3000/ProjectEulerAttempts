@@ -1,7 +1,6 @@
 from math import log, ceil
 
 def find_primes(limit):
-    #Sieve of Erathosthenes
     nums = [True]*(limit + 1)
     nums[0] = nums[1] = False
 
@@ -14,7 +13,6 @@ def find_primes(limit):
 def upper_bound(n):
     if n<6:
         return 100
-    #Round up and calculate the upper bound for nth prime
     return ceil(n * (log(n) + log(log(n))))
 
 def find_n_prime(n):
