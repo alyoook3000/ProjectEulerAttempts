@@ -23,5 +23,4 @@ def BigGridP(filename):
             greatest = max(greatest, across, down, diagonal_down, diagonal_up)
     return(greatest)
 
-
 print(BigGridP('gridchallengedata.txt'))
