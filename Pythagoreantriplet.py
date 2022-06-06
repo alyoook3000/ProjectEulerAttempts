@@ -21,7 +21,3 @@ def tripletproduct(sidesum):
             continue
         if 2 * m * (m+round(n)) == sidesum:
             return (m**2-n**2, 2*m*n, m**2 + n**2)
-
-
-
-a, b, c = tripletproduct(1000)
