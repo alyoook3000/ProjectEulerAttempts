@@ -6,6 +6,5 @@ def diff(n):
         square += i
     square = square**2
     diff = square - sum
-    return diff
 
-print(diff(100))
+    return diff
